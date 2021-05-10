@@ -1,6 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-
 TeamMember.create([
   {
     name: 'Connor Harron',
@@ -48,8 +45,39 @@ TeamMember.create([
     name: 'Pamela Woodland',
     description: 'Pamela has a special wisdom in subtle nurturing. Careful if you spend time with her, you may grow or develop in some way.',
     role: 'Community Regenerator',
-    img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fpjwoodland%2F3030348631%2F&psig=AOvVaw3u-2eR8x7O9AMG6AhSqli5&ust=1620692094538000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJD349rqvfACFQAAAAAdAAAAABAI'
+    img: 'https://www.vmcdn.ca/f/files/via/images/northern-vancouver-island.jpg'
+  },
+])
+
+Kitchen.create([
+  {
+    name: 'South Pass/Reese Hill',
+    description: 'The flagship kitchen, South Pass/Reese Hill is a community of folks in the foothills of Mt Baker who are growing food, managing forests and having a good time rain or shine.',
+    img: 'https://www.snowater.org/wp-content/uploads/2016/11/Home-1.jpg',
+    location_name: 'Sumas, WA',
+    lat: 48.95,
+    lon: -122.22,
+    timezone: 'PST'
+  },
+  {
+    name: 'Redwood Canyon',
+    description: 'Redwood Canyon kitchen is the original inspiration for the Burl Canyon Community Kitchen fictional story, check it out. The character of this area is formed by giant redwoods, a beautiful coastline and an eclectic people.',
+    img: 'https://images.squarespace-cdn.com/content/v1/540601bee4b0a806a01d7678/1432333239713-0XAU21WEWPARU73G6RVW/ke17ZwdGBToddI8pDm48kFmfxoboNKufWj-55Bgmc-J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iXS6XmVv7bUJ418E8Yoc1hjuviiiZmrL38w1ymUdqq4JaGeFUxjM-HeS7Oc-SSFcg/Santa+Cruz+Lighthouse.jpg?format=1000w',
+    location_name: 'Santa Cruz, CA',
+    lat: 37.02,
+    lon: -122.01,
+    timezone: 'PST'
+  },
+  {
+    name: 'Puerto Rico',
+    description: 'Puerto Rico is ground zero for regenerative projects worldwide, and it\'s a tropical island.',
+    img: 'https://compote.slate.com/images/692efa32-8525-486e-a4ac-a85ed3eb94e9.jpeg',
+    location_name: 'Puerto Rico',
+    lat: 18.23,
+    lon: -66.47,
+    timezone: 'AST'
   },
 ])
 
 # TeamMember.delete_all()
+# Kitchen.delete_all()
