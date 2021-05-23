@@ -2,9 +2,10 @@ FactoryBot.define do
   factory :kitchen do
     name { "MyString" }
     description { "MyText" }
-    latitude { "9.99" }
-    longitude { "9.99" }
+    img { "MyString" }
+    location_name { "MyString" }
+    lat { 9.99 }
+    lon { 9.99 }
     timezone { "MyString" }
-    image { "MyString" }
   end
 end
