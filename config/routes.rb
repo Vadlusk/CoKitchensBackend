@@ -3,8 +3,9 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :team_members, only: %i[index]
       resources :kitchens, only: %i[index]
+      resources :tools, only: %i[index]
       resources :stories, only: %i[index]
-      
+
       namespace :users do
         post 'authenticate'
       end

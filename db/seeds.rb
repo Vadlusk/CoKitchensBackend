@@ -234,3 +234,4 @@ I stopped talking for a moment as we all stared off into the distance. No one sa
 # TeamMember.delete_all()
 # Kitchen.delete_all()
 # Story.delete_all()
+# Tool.delete_all()
